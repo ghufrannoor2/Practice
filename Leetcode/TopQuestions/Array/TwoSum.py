@@ -5,7 +5,7 @@ Solution for Array: Two Sums Problem
 """
 
 class Solution(object):
-    def twoSum(self, nums, target):
+    def two_sum(self, nums, target):
         """
         :type nums: List[int]
         :type target: int
@@ -30,6 +30,6 @@ class Solution(object):
 
 def run():
     solution = Solution()
-    solution.twoSum([2, 7, 11, 15], 9)
+    solution.two_sum([2, 7, 11, 15], 9)
 
 run()

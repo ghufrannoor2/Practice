@@ -3,7 +3,7 @@ Solution for Array: Contains Duplicate Problem
 """
 
 class Solution(object):
-    def containsDuplicate(self, nums):
+    def contains_duplicate(self, nums):
         """
         :type nums: List[int]
         :rtype: bool
@@ -25,6 +25,6 @@ class Solution(object):
 
 def run():
     solution = Solution()
-    solution.containsDuplicate([1, 2, 3, 1])
+    solution.contains_duplicate([1, 2, 3, 1])
 
 run()

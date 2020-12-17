@@ -4,7 +4,7 @@ Solution for Array: Maximum Sub-Array Problem
 """
 
 class Solution(object):
-    def maxSubArray(self, nums):
+    def max_sub_array(self, nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -40,6 +40,6 @@ class Solution(object):
 
 def run():
     solution = Solution()
-    solution.maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4])
+    solution.max_sub_array([-2, 1, -3, 4, -1, 2, 1, -5, 4])
 
 run()

@@ -3,7 +3,7 @@ Solution for Array: Contains Duplicate Problem
 """
 
 class Solution(object):
-    def productExceptSelf(self, nums):
+    def product_except_self(self, nums):
         """
         :type nums: List[int]
         :rtype: bool
@@ -29,6 +29,6 @@ class Solution(object):
 
 def run():
     solution = Solution()
-    solution.productExceptSelf([1, 2, 3, 4])
+    solution.product_except_self([1, 2, 3, 4])
 
 run()

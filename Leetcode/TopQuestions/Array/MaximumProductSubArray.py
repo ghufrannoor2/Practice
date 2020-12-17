@@ -4,7 +4,7 @@ Solution for Array: Maximum Product Sub-Array Problem
 """
 
 class Solution(object):
-    def maxProduct(self, nums):
+    def max_product(self, nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -30,18 +30,18 @@ class Solution(object):
                     sublist_product = sublist_product * number
 
                 if not first_run: # Check if not first run
-                    if sublist_product > max_product:
-                        max_product = sublist_product
+                    if sublist_product > maximum_product:
+                        maximum_product = sublist_product
                         
-                else: # If first run, set max_product for first time
+                else: # If first run, set maximum_product for first time
                     first_run = False
-                    max_product = sublist_product
+                    maximum_product = sublist_product
                 
-        print("\nMax Product: " + str(max_product) + "\n")
-        return max_product
+        print("\nMax Product: " + str(maximum_product) + "\n")
+        return maximum_product
 
 def run():
     solution = Solution()
-    solution.maxProduct([2, 3, -2, 4])
+    solution.max_product([2, 3, -2, 4])
 
 run()
